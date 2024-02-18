@@ -1,0 +1,93 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family:'poppins', sans-serif;
+    font-size: 14px;
+    color:white;
+    font-weight: 250;
+}
+
+.sfondo{
+    background-color: rgba(0, 0, 0, 0.623);
+    background-attachment: scroll;
+    width: 900px;
+    height: 600px;
+    padding: 50px 25px 25px 25px;
+    box-sizing: padding-box;
+    border-radius: 10px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);    
+}
+
+header{
+    text-align: center;
+}
+
+#logo{
+    width: 250px;
+}
+
+nav{
+    background-color: rgb(8, 235, 8);
+    width:800px;
+    height: 50px;
+    position: relative;
+    left:50px;
+}
+  
+.Monopattino{
+padding-left: 50px;
+}
+
+.quadrato{
+    font-size: 20px;
+}
+
+.bottoni{
+    position: absolute;
+    top:15px;
+    left: 30%;   
+}
+
+h1{
+    color:rgb(16, 228, 16);
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.barra{
+    height:25px;
+    margin:1px;
+    border-radius: 6%;
+}
+
+.arancio{
+    background: orange;
+    width: 35%;
+}
+
+.verde{
+    background-color: green;
+    width: 60%;
+}
+
+.rossa{
+    background-color: red;
+    width: 15%;
+}
